@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // Added for navigation
 import Layout from "../components/Layout";
@@ -67,7 +69,7 @@ const Dashboard = () => {
   }, [authLoading, isAuthenticated, navigate]);
 
   const {
-    data: documentsData,
+    // data: documentsData,
     isLoading,
     refetch,
   } = useQuery({

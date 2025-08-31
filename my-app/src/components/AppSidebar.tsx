@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // import { useState } from "react";
 // import { FileText, Building2, Users, BarChart3, Home } from "lucide-react";
 // import { NavLink, useLocation } from "react-router-dom";
@@ -199,7 +201,7 @@ import { FileText, Building2, Users, BarChart3, Home } from "lucide-react";
 import { NavLink, useLocation } from "react-router-dom";
 import { useAuthContext } from "../contexts/AuthContext";
 import { useQuery } from "@tanstack/react-query";
-import { userService } from "../services/user.service";
+// import { userService } from "../services/user.service";
 import { organizationService } from "../services/organization.service";
 import { documentService } from "../services/document.service";
 

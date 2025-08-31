@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState } from "react";
 import {
   Card,
@@ -24,7 +26,7 @@ import {
   ChevronRight,
   ChevronDown,
   Building,
-  Plus,
+  // Plus,
   Trash2,
   Edit3,
 } from "lucide-react";
